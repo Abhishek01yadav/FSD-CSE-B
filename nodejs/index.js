@@ -62,6 +62,18 @@ else{
     
 //   }
 // });
+// fs.cpSync("./a.txt","./b.txt");
+// fs.cpSync("./a.txt","./b.txt",()=>{});
+// fs.cpSync("./a.txt","./b.txt",()=>{
+//   if(err) {
+//     console.log(err);
+    
+//   }
+// });
+
+fs.unlinkSync("./a`.txt");``
+
+
 
 myserver.listen(8000,()=>console.log("server is run"));
 
