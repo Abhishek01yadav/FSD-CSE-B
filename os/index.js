@@ -6,5 +6,6 @@ console.log("free memeory",os.freemem());
 console.log("total memeory",os.totalmem());
 console.log("uptime",os.uptime());
 console.log("home dir",os.homedir());
+console.log("host name ",os.hostname());
 
 
